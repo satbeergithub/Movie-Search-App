@@ -1,0 +1,57 @@
+  .form-inline {
+    display: flex;
+    width: 85%;
+    margin-left: 100px;
+    margin-top: 1%;
+    border: 1px solid black;
+    padding: 1%;
+    /* background: radial-gradient(circle at -8.9% 51.2%, rgb(255, 124, 0) 0%, rgb(255, 124, 0) 15.9%, rgb(255, 163, 77) 15.9%, rgb(255, 163, 77) 24.4%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%); */
+    background: linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, rgb(11, 132, 145) 91.1%);
+    border-radius: 15px
+  }
+  .form-inline input {
+    width: 100%;
+  }
+  
+  .form-inline button{
+   margin-right: 10%;
+   margin-left: 10px;
+  }
+/* ------------------------------>>>>>> */
+  .col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-right: 1em;
+    margin-top: 2%;
+  }
+  .col1 {
+    flex: 1 ;
+    width: 100%;
+    margin-top: 5%;
+    margin-left: 1%;
+  }
+  .si {
+  width: 300px;
+  height: 400px;
+  }
+   img:hover {
+  cursor: pointer;
+   }
+  .detail {
+    width: 60%;
+    margin-top: 2%;
+    border: 3px solid yellowgreen;
+    text-align: center;
+    border-radius: 5%; 
+  }
+  .detail img {
+    width: 400px;
+    height: 500px;
+  }
+  @media (max-width:900px){
+    .col {
+        display: flex;
+        flex-direction: column;
+       }
+  }
+  
