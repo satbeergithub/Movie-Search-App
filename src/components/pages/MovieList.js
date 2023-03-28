@@ -27,6 +27,7 @@ const MovieList = () => {
 
   const handleLoadMore = () => {
     setCurrentPage((prevPage) => prevPage + 1);
+   
   };
 
   useEffect(() => {
@@ -104,7 +105,7 @@ const MovieList = () => {
           ))
         )
          :
-         (<h5 style={{ textAlign: "centre" }}>No movies found</h5>)
+         (!loading && <h5 style={{ textAlign: "centre" }}>No movies found</h5>)
         }
       </div>
 
